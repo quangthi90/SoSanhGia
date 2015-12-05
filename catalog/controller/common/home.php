@@ -9,6 +9,8 @@ class ControllerCommonHome extends Controller {
 			$this->document->addLink(HTTP_SERVER, 'canonical');
 		}
 
+		$this->document->addStyle('catalog/view/theme/default/stylesheet/home.css');
+
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');
 		$data['content_top'] = $this->load->controller('common/content_top');
