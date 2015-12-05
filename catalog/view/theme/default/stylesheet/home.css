@@ -1,0 +1,6 @@
+.common-home {
+	background-image: url('../image/intro-bg.jpg');
+	background-size: cover;
+	height: 330px;
+    padding-top: 20px;
+}

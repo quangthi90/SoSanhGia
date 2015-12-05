@@ -1,0 +1,26 @@
+---------- Date: 2015-12-05 19:25:23 ~ IP : ::1 ----------
+REQUEST URI : /sosanhgia/index.php?route=common/home
+MOD DETAILS:
+   modFile   : F:\Program\xampp\htdocs\SoSanhGia\vqmod/xml/bm_seo_url.xml
+   id        : edit url for site foodsafe.vn
+   version   : 2.0.x
+   vqmver    : 1.0
+   author    : Bommer Luu
+
+File Name    : catalog/controller/common/seo_url.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $url .= 'index.php?route=' . $route;
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-05 19:25:53 ~ IP : ::1 ----------
+REQUEST URI : /sosanhgia/index.php?route=common/home
+MOD DETAILS:
+   modFile   : F:\Program\xampp\htdocs\SoSanhGia\vqmod/xml/bm_seo_url.xml
+   id        : edit url for site foodsafe.vn
+   version   : 2.0.x
+   vqmver    : 1.0
+   author    : Bommer Luu
+VQModObject::parseMods - Could not resolve path for [system/library/seo_url.php] (SKIPPED)
+----------------------------------------------------------------------
+
+
