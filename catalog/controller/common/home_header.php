@@ -1,5 +1,5 @@
 <?php
-class ControllerCommonHeader extends Controller {
+class ControllerCommonHomeHeader extends Controller {
 	public function index() {
 		// Analytics
 		$this->load->model('extension/extension');
