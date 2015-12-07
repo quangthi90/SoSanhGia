@@ -16,7 +16,7 @@ class ControllerCommonHome extends Controller {
 		$data['content_top'] = $this->load->controller('common/content_top');
 		$data['content_bottom'] = $this->load->controller('common/content_bottom');
 		$data['footer'] = $this->load->controller('common/footer');
-		$data['header'] = $this->load->controller('common/header');
+		$data['header'] = $this->load->controller('common/home_header');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/home.tpl')) {
 			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/home.tpl', $data));

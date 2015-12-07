@@ -38,7 +38,7 @@
 <?php } ?>
 </head>
 <body class="<?php echo $class; ?>">
-<nav id="top">
+<!--nav id="top">
   <div class="container">
     <?php echo $currency; ?>
     <?php echo $language; ?>
@@ -65,11 +65,11 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav-->
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-3 col-sm-offset-4">
         <div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -78,13 +78,15 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
       </div>
-      <div class="col-sm-3"><?php echo $cart; ?></div>
+      <!--div class="col-sm-3"><?php echo $cart; ?></div-->
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3"><?php echo $search; ?>
     </div>
   </div>
 </header>
-<?php if ($categories) { ?>
+<?php if (!$categories) { ?>
 <div class="container">
   <nav id="menu" class="navbar">
     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
