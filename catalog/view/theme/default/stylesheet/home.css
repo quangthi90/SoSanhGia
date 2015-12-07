@@ -1,6 +1,32 @@
 .common-home {
-	background-image: url('../image/intro-bg.jpg');
-	background-size: cover;
+	/*background-image: url('../image/intro-bg.jpg');
+	background-size: contain;
 	height: 330px;
     padding-top: 20px;
+    background-repeat: no-repeat;*/
 }
+	.common-home #logo {
+		/*margin-top: 200px;*/
+    	text-align: center;
+	}
+	.common-home #search input {
+	    border-radius: 5px 0 0 5px;
+	    box-shadow: 2px 2px 5px 0 #333;
+	    height: 50px;
+	    font-weight: bold;
+	    font-size: 15px;
+	}
+	.common-home #search button {
+	    border-radius: 0 4px 4px 0;
+	    box-shadow: 2px 2px 5px 0 #333;
+	    height: 50px;
+	}
+		.common-home #search button i {
+			font-size: 20px;
+		}
+	.common-home > .container #content {
+		min-height: 0px;
+	}
+	.common-home .dropdown-menu {
+		width: 87%;
+	}
