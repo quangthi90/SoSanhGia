@@ -124,7 +124,7 @@ div.required .control-label:before {
 }
 /* logo */
 #logo {
-	margin: 0 0 10px 0;
+	/*margin: 0 0 10px 0;*/
 }
 /* search */
 #search {
